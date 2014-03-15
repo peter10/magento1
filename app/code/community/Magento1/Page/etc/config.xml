@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magento1_Page>
+            <version>1.0</version>
+        </Magento1_Page>
+    </modules>
+    <global>
+        <page>
+            <layouts>
+                <home module="page" translate="label">
+                    <label>home</label>
+                    <template>page/home.phtml</template>
+                    <layout_handle>page_home</layout_handle>
+                </home>
+            </layouts>
+        </page>
+    </global>
+</config>
